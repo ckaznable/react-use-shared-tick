@@ -5,6 +5,8 @@
   "type": "module",
   "types": "dist/main.d.ts",
   "license": "MIT",
+  "repository": "github:ckaznable/react-use-shared-tick",
+  "homepage": "https://github.com/ckaznable/react-use-shared-tick",
   "files": [
     "dist"
   ],
