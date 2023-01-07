@@ -1,10 +1,21 @@
 {
   "name": "react-use-shared-tick",
   "description": "React hook run function in same setInterval",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "types": "dist/main.d.ts",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/use-shared-tick.umd.cjs",
+  "module": "./dist/use-shared-tick.js",
+  "exports": {
+    ".": {
+      "import": "./dist/use-shared-tick.js",
+      "require": "./dist/use-shared-tick.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
