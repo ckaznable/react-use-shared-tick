@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/react-use-shared-tick?color=g)](https://www.npmjs.com/package/react-use-shared-tick)
+
 # React useSharedTick
 
 React hook run function in same `setInterval`
